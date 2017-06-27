@@ -88,12 +88,12 @@ Three models were tested for their effectiveness on modeling the data, a simple 
 
 To evaluate the performance of the model I wanted to look at the schools first in which the model had very high accuracy. These were schools with which it predicted to within 1% of the actual graduation rate. Fortunately of the 370 data points which fit this criteria there were no common similarities, and a wide range of each of the features was captured. This shows that the model was proficient at a large range of schools and not over fit to a particular type.
 
-<img alt="Summary of High Accuracy" src="Images/high_acc.png" width=400>  
+<img alt="Summary of High Accuracy" src="Images/high_acc.PNG" width=400>  
 <sub><b>Figure 12: </b> High Accuracy Summary </sub>
 
 Next, I looked at schools which had the largest misses. These all had an error larger than 30%. These schools were all very similar which is good in that it provides an understanding of which types of school the model is less effective on. What was shown is that the schools tended to be small and inexpensive.
 
-<img alt="Summary of Low Accuracy" src="Images/Large misses.png" width=400>
+<img alt="Summary of Low Accuracy" src="Images/Large misses.PNG" width=400>
 <sub><b>Figure 13: </b> Summary of Low Accuracy </sub>
 
 Finally, some performance metrics were calculated to provide some idea to the level of accuracy which to expect from the model. These were bucketed accuracy at different levels, within 90%, 95%, and 99% (table 1).

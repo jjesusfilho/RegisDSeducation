@@ -76,7 +76,7 @@ Initially the data set contained about 45,000 rows. However, many features were 
 
 ## Analysis methods
 
-Three models were tested for their effectiveness on modeling the data, a simple multilinear regression, random forest, and deep learning. The linear regression (figure 9) worked very well with an RSME of 11% which would be very effective. One will notice that at graduation rates under about 30% the model diverged more from actuals. The Deep learning algorithm performed slightly better with an RSME of only 9% (figure 10). The deep learning model was trained utilizing the 'h2o' API which has pluggins to integrate well with R and Python.
+Three models were tested for their effectiveness on modeling the data, a simple multilinear regression, random forest, and deep learning. The linear regression (figure 9) worked very well with an RSME of 11% which would be very effective. One will notice that at graduation rates under about 30% the model diverged more from actuals. The Deep learning algorithm performed slightly better with an RSME of only 9% (figure 10). The deep learning model was trained utilizing the 'h2o' API which has pluggins to integrate well with R and Python.This model was trained using default parameters using 2 hidden layers with 200 nodes each. Hyper-parametrization did not improve performance or accuracy.
 
 ## Results
 

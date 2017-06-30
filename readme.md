@@ -8,14 +8,14 @@ Data was acquired from the following website:
 1. [data source 1]https://collegescorecard.ed.gov/data : This data set contains information about higher education institutions in the united states. Contains information such as Test scores, student body compositions, and financial data.
 
 
-The data set originally contained 47,000 observation contained in 15 csv files for academic years from 2000-2015 with 1750 features. Using R the files were combined, reduced to 10 features and na values removed resulting in a data set of 6500 observations. The used features were then visualized using Tableau.
+The data set originally contained 47,000 observations contained in 15 csv files for academic years from 2000-2015 with 1750 features. Using R the files were combined, reduced to 10 features and na values removed resulting in a data set of 6500 observations. The used features were then visualized using Tableau.
 
 # Feature Selection and Analysis
 
 *Admission Rate*
 
-Through investigation of reported demographic information 10 factors were selected from higher education institution from the years 2000-2015.
-The first feature used is the admission rate of the institution. From figure 1 it can be seen that in more exclusive institutions, where the admission rate is less than 50% the graduation rate tends to follow a predictable linear trend. This can be because of a variety of reasons. The most likely is that because of the exclusivity more determined students are attracted and thus more likely to complete the degree on time. For this feature, some of the outliers become interesting. Paul Quin college, a private liberal arts college from Dallas, Texas has a very low admission rates as well as very low graduation rates. A reason behind the low graduation rate is that Paul college is part of a very small group of 8 colleges which requires students to work full time while completing their degrees. This fact alone could lead to their low graduation rates as it is very difficult to graduate a 4-year program while working full time.
+Through investigation of reported demographic information 10 factors were selected from the higher education institution from the years 2000-2015.
+The first feature used is the admission rate of the institution. From figure 1 it can be seen that in more exclusive institutions, where the admission rate is less than 50%, the graduation rate tends to follow a predictable linear trend. This can be because of a variety of reasons. The most likely is that because of the exclusivity more determined students are attracted and thus more likely to complete the degree on time. For this feature, some of the outliers become interesting. Paul Quin college, a private liberal arts college from Dallas, Texas has very low admission rates as well as very low graduation rates. A reason behind the low graduation rate is that Paul College is part of a very small group of 8 colleges which requires students to work full time while completing their degrees. This fact alone could lead to their low graduation rates as it is very difficult to graduate a 4-year program while working full time.
 
 
 <img alt="Admission Rate" src="Images/Admission rate.png" width=400>  
